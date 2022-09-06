@@ -1,0 +1,15 @@
+h2  {
+  /* this means that  we are selecting the h2 tag and applying style to it*/
+  color: red;
+  color: #ff0000; /*RGB form is allowed*/
+  font-size: 2em; /*Twice the height of the standard font*/
+}
+
+p {
+  background-color: #eee /*if there is a single hex digit for each one it gets doubled, eee means ee ee ee */
+}
+
+p.special { /*just looking for paragraphs that are part of the special class*/
+  font-size: 1.2em;
+  color: #00f;
+}
